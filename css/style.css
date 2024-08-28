@@ -686,6 +686,15 @@ Navbar Area CSS
   height: 65vh !important;
   overflow-y: scroll;
 }
+.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu.product-menu {
+  width: 15vw !important;
+  left: -50% !important;
+  height: auto !important;
+  overflow: hidden;
+}
+.side-line {
+  text-align: left !important;
+}
 
 .nave-service {
   width: 100% !important;

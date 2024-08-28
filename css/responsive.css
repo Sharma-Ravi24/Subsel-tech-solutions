@@ -8,8 +8,6 @@
     left: 418px;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    
-
     overflow-y: scroll;
   }
 
@@ -47,9 +45,8 @@
     height: 410px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-
-
-    width: 100vw !important;
+    left: -600% !important;
+    width: 105vw !important;
     overflow-y: scroll;
   }
   .navbar-area .navbar .others-options .option-item .call-button {
@@ -181,7 +178,7 @@
     height: 550px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-
+    left: -550% !important;
     overflow-y: scroll;
   }
   .main-navbar .navbar .others-options .option-item .call-button {
