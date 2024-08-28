@@ -4533,7 +4533,9 @@ Go Top CSS
   width: 40px;
 }
 
-
+.single-footer-widget .image img{
+  width: 200px;
+}
 
 .single-footer-widget .quick-links .footer-btn {
   background-color: #0d1820;
