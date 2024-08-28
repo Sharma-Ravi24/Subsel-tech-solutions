@@ -107,6 +107,9 @@
   .single-footer-widget .quick-links li {
     font-size: 14px;
   }
+  .single-footer-widget .quick-links li a {
+    font-size: 9px;
+  }
   .contact-location .location-india h5{
     font-size: 17px;
   }
@@ -184,6 +187,14 @@
   .main-navbar .navbar .others-options .option-item .call-button {
     padding: 28px 14px;
     font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1000px ) and (max-width:1200px){
+
+}
+@media only screen and (min-width: 992px ) and (max-width:1110px) {
+  .single-footer-widget h3 {
+    font-size: 17px;
   }
 }
 @media only screen and (min-width: 992px ) and (max-width:1030px) {
