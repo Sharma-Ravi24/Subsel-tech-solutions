@@ -2269,6 +2269,21 @@ Fun Images Area CSS
   width: 110px;
   height: auto;
 }
+/* .loader-div {
+  width: calc(100%);
+  height: calc(100%);
+} */
+
+/* @keyframes rotate {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+.fun-images-area .images img:hover{
+  border-top: 8px solid #09f;
+  animation: rotate 5s linear infinite;
+} */
+
 /*================================================
 Sales Area CSS
 =================================================*/
@@ -2516,7 +2531,6 @@ Subscribe Area CSS
 
 .subscribe-section .newsletter-form {
   max-width: 580px;
-  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2550,10 +2564,7 @@ Subscribe Area CSS
 }
 
 .subscribe-section .newsletter-form button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #0d1820;
+  background-color: #b30000;
   color: #ffffff;
   border: none;
   height: 60px;
@@ -2566,6 +2577,7 @@ Subscribe Area CSS
   cursor: pointer;
   font-size: 16px;
   font-weight: 400;
+  width: 100%;
 }
 
 .subscribe-section .newsletter-form button:hover {
@@ -2617,12 +2629,12 @@ Subscribe Area CSS
   font-weight: 500;
 }
 
-.subscribe-area .newsletter-form {
-  max-width: 580px;
+/* .subscribe-area .newsletter-form {
+  max-width: 500px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .subscribe-area .newsletter-form .input-newsletter {
   display: block;
@@ -2653,13 +2665,11 @@ Subscribe Area CSS
 }
 
 .subscribe-area .newsletter-form button {
-  position: absolute;
-  right: 0;
-  top: 0;
   background-color: #f12711;
   color: #ffffff;
   border: none;
   height: 60px;
+  width: 100%;
   padding: 0 30px;
   border-radius: 5px;
   -webkit-transition: 0.6s;
@@ -2677,7 +2687,6 @@ Subscribe Area CSS
 }
 
 .subscribe-area .newsletter-form #validator-newsletter {
-
   position: relative;
   top: 8px;
   font-size: 16px;
@@ -2693,7 +2702,7 @@ Subscribe Area CSS
 }
 
 .subscribe-area.bg-color .newsletter-form button {
-  background-color: #0d1820;
+  background-color: #af0000;
 }
 
 .subscribe-area.bg-color .newsletter-form button:hover {
@@ -3297,7 +3306,7 @@ Footer Area CSS
 }
 
 .subscribe-area .newsletter-form {
-  max-width: 580px;
+  max-width: 400px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -3313,6 +3322,7 @@ Footer Area CSS
   border-radius: 5px;
   outline: 0;
   color: #0d1820;
+  margin-bottom: 10px;
 }
 
 .subscribe-area .newsletter-form .input-newsletter::-webkit-input-placeholder {
@@ -3332,9 +3342,6 @@ Footer Area CSS
 }
 
 .subscribe-area .newsletter-form button {
-  position: absolute;
-  right: 0;
-  top: 0;
   background-color: #f12711;
   color: #ffffff;
   border: none;
@@ -3368,11 +3375,11 @@ Footer Area CSS
 }
 
 .subscribe-area.bg-color .newsletter-form button {
-  background-color: #0d1820;
+  background-color: #00065f;
 }
 
 .subscribe-area.bg-color .newsletter-form button:hover {
-  background-color: #0865f8;
+  background-color: #0143ad;
 }
 
 .subscribe-area.bg-color .newsletter-form #validator-newsletter {
