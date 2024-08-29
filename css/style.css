@@ -1935,7 +1935,7 @@ Trial Area CSS
 }
 
 .trial-image {
-  background-image: url(/img/trial.jpg);
+  background-image: url(/img/trail.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2243,6 +2243,24 @@ Fun Facts Area CSS
   margin-bottom: 2px;
 }
 
+/*================================================
+Fun Images Area CSS
+=================================================*/
+
+.item-bg-fun-images{
+  background-color: #f7f5f0;
+}
+.fun-images-area .images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.fun-images-area .images img{
+  width: 110px;
+  height: auto;
+}
 /*================================================
 Sales Area CSS
 =================================================*/

@@ -128,6 +128,9 @@
   .accompany-list-tab .tab_content {
     padding: 20px;
   }
+  .fun-images-area .images .image{
+    flex: 25%;
+  }
   .software-item {
     padding: 22px;
   }
