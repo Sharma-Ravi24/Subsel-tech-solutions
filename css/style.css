@@ -666,8 +666,8 @@ Navbar Area CSS
   position: absolute;
   border: none;
   top: 80px;
-  left: -100%;
-  width: 60vw !important;
+  left: -500% !important;
+  width: 100vw !important;
   z-index: 99;
   opacity: 0;
   visibility: hidden;

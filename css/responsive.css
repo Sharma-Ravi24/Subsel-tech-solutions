@@ -8,8 +8,8 @@
     left: 418px;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -300%;
-    width: 60vw !important;
+    
+
     overflow-y: scroll;
   }
 
@@ -47,9 +47,9 @@
     height: 410px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -400%;
-    height: 70vh;
-    width: 80vw !important;
+
+
+    width: 100vw !important;
     overflow-y: scroll;
   }
   .navbar-area .navbar .others-options .option-item .call-button {
@@ -184,8 +184,7 @@
     height: 550px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -400%;
-    height: 70vh;
+
     overflow-y: scroll;
   }
   .main-navbar .navbar .others-options .option-item .call-button {
@@ -549,7 +548,7 @@
     height: 550px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -400%;
+
     height: fit-content;
     overflow-y: scroll;
   
@@ -944,8 +943,8 @@
       font-size: 18 px !important;
     }
     .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
-      left: -300%;
-      width: 65vw !important;
+ 
+
       overflow: scroll;
     }
 
