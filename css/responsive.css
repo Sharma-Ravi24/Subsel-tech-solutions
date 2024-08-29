@@ -206,6 +206,9 @@
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu.product-menu{
     width: 18vw !important;
   }
+  .fun-images-area .images .fun-image{
+    padding: 10px;
+  }
 }
 @media only screen and (min-width: 1000px ) and (max-width:1200px){
  
@@ -235,6 +238,7 @@
     padding-left: 50px !important;
     overflow-y: scroll;
   }
+ 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .ptb-100 {
@@ -473,6 +477,15 @@
   }
   .software-item {
     padding: 22px;
+  }
+  .fun-images-area .images{
+    flex-wrap: wrap;
+  }
+  .fun-images-area .images .fun-image{
+    flex: 20%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
   }
   .contact-location .location-india{
     margin-top: 15px;
@@ -900,7 +913,15 @@
   .contact-social{
     margin-top: 15px;
   }
-
+  .fun-images-area .images{
+    flex-wrap: wrap;
+  }
+  .fun-images-area .images .fun-image{
+    flex: 50%;
+  }
+  .fun-images-area .images .fun-image img{
+    width: 150px;
+  }
 }
 @media only screen and (max-width: 575px){
   .top-header-area .contact a{
@@ -942,6 +963,17 @@
   }
   .join-area .join-content h2{
     font-size: 36px;
+  }
+  .fun-images-area .images{
+    flex-wrap: wrap;
+  }
+  .fun-images-area .images .fun-image{
+    flex: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .fun-images-area .images .fun-image img{
+    width: 200px;
   }
 }
 @media only screen and (max-width: 1400px) {

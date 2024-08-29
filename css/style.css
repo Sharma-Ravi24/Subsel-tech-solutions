@@ -2261,8 +2261,9 @@ Fun Images Area CSS
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 10px;
+}
+.fun-images-area .images .fun-image{
+  padding: 15px;
 }
 .fun-images-area .images img{
   width: 110px;
