@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1800px) {  
+@media only screen and (min-width: 1399px) and (max-width: 1800px) {  
 
   .home-sliders.owl-theme .owl-nav [class*=owl-] {
     left: 318px;
@@ -7,10 +7,15 @@
     right: auto;
     left: 418px;
   }
-  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
+   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
+    padding-left: 90px !important;
+    width: 98.8vw !important;
     overflow-y: scroll;
+  } 
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu.product-menu{
+    width: 18vw !important;
   }
-
+  
 }
 @media only screen and (min-width: 1100px) and (max-width: 1440px) {
   .navbar-area.navbar-style-two {
@@ -45,13 +50,18 @@
     height: 410px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -600% !important;
-    width: 105vw !important;
+    left: -571% !important;
+    width: 98.5vw !important;
+    padding-left: 80px !important;
     overflow-y: scroll;
+    overflow-x:hidden;
   }
   .navbar-area .navbar .others-options .option-item .call-button {
     padding: 27px 14px;
     font-size: 18px;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu.product-menu{
+    width: 18vw !important;
   }
  
 }/*# sourceMappingURL=responsive.css.map */
@@ -181,18 +191,30 @@
     height: 550px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-    left: -550% !important;
+    left: -520% !important;
+    width: 98.5vw !important;
+    padding-left: 50px !important;
     overflow-y: scroll;
   }
   .main-navbar .navbar .others-options .option-item .call-button {
     padding: 28px 14px;
     font-size: 16px;
   }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu.product-menu{
+    width: 18vw !important;
+  }
 }
 @media only screen and (min-width: 1000px ) and (max-width:1200px){
+ 
 
 }
 @media only screen and (min-width: 992px ) and (max-width:1110px) {
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
+    left: -520% !important;
+    width: 98.5vw !important;
+    padding-left: 50px !important;
+    overflow-y: scroll;
+  }
   .single-footer-widget h3 {
     font-size: 17px;
   }
@@ -203,6 +225,12 @@
   }
   .navbar-area .main-navbar .navbar .navbar-nav .nav-item a{
     margin: 0 5px;
+  }
+  .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
+    left: -540% !important;
+    width: 98.8vw !important;
+    padding-left: 50px !important;
+    overflow-y: scroll;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -545,7 +573,7 @@
     height: 550px !important;
   }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu{
-
+    width: 200vw !important;
     height: fit-content;
     overflow-y: scroll;
   
