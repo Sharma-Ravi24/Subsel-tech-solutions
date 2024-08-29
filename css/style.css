@@ -1719,7 +1719,9 @@ Join Area CSS
   background-color: #ffffff;
   color: #0d1820;
 }
-
+.join-content span .ptd{
+  font-size: 17px;
+}
 /*================================================
 Trial Area CSS
 =================================================*/
@@ -3373,6 +3375,7 @@ Footer Area CSS
 
 .single-footer-widget .quick-links li a {
   color: #bec6cb;
+  font-size: 17px;
 }
 
 .single-footer-widget .quick-links li a:hover {
@@ -4522,7 +4525,7 @@ Go Top CSS
 
 .single-footer-widget .quick-links li a {
   color: #bec6cb;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .single-footer-widget .quick-links li a h3 {
